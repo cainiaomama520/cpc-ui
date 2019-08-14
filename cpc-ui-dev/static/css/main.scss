@@ -1,0 +1,245 @@
+*{margin:0;padding:0;}
+html,body,#app,.wrapper{
+    width:100%;
+    height:100%;
+    background-color: #e4e7ed;
+   /*overflow: hidden;*/
+}
+.el-menu {
+  width: 100%;
+}
+.el-table th>.cell {
+  text-align: center;
+}
+// .el-tree {
+//   color: #fff !important;
+//   background-color: #545c64 !important;
+// }
+.el-tree-node__content:hover {
+  color: #fff !important;
+  background-color: rgb(84, 92, 100) !important;
+}
+.el-tree-node:focus>.el-tree-node__content {
+  color: rgb(255, 208, 75) !important;
+  background-color: rgb(84, 92, 100) !important;
+}
+.el-tree-node__label {
+  font-size: 16px !important;
+}
+.el-tree-node__content {
+  padding-top: 5px;
+}
+body{
+    font-family:"Helvetica Neue",Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+.auto{
+        margin: 10px auto;
+}
+.block {
+    float: right;
+    margin: 25px 0 10px 35px;
+}
+.pageP {
+    padding: 15px 11px;
+}
+a{text-decoration: none}
+.content{
+    background: none repeat scroll 0 0 #fff;
+    position: absolute;
+    left: 250px;
+    right: 0;
+    top: 70px;
+    bottom:0;
+    width: auto;
+    padding:40px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.el-table td,
+.el-table th {
+    padding: 0;
+    text-align: center;
+}
+.el-table .info-row {
+    background: #c9e5f5;
+}
+
+.el-table .positive-row {
+    background: #e2f0e4;
+}
+.centr{
+    margin: 0  20px;
+}
+ .consumption {
+            font-size: 18px;
+            font-weight: 700;
+            color: #000;
+            padding: 10px 25px 10px;
+            margin: -5px 0 20px;
+            border-bottom: 1px solid #c9e5f5;
+    }
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block
+}
+.crumbs{
+    margin-bottom: 20px;
+}
+.el-table .cell, .el-table th>div{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+}
+.pagination{
+    margin: 20px 0;
+    text-align: right;
+}
+.plugins-tips{
+    padding:20px 10px;
+    margin-bottom: 20px;
+}
+.el-button+.el-tooltip {
+    margin-left: 10px;
+}
+.el-table td,.el-table th{
+    padding: 0;
+    margin: 0;
+}
+.el-table tr:hover{
+    background: #f6faff;
+}
+.mgb20{
+    margin-bottom: 20px;
+}
+
+.move-enter-active,.move-leave-active{
+    transition: opacity .5s;
+}
+.move-enter,.move-leave{
+    opacity: 0;
+}
+/*BaseForm*/
+.form-box{
+    width:600px;
+}
+.form-box .line{
+    text-align: center;
+}
+.el-time-panel__content::after, .el-time-panel__content::before {
+    margin-top: -7px;
+}
+/*Readme*/
+.ms-doc .el-checkbox__input.is-disabled+.el-checkbox__label{
+    color: #333;
+    cursor: pointer;
+}
+/*Upload*/
+.pure-button{
+    width:150px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+.g-core-image-corp-container .info-aside{
+    height:45px;
+}
+.el-upload--text {
+    background-color: #fff;
+    /*border: 1px dashed #d9d9d9;*/
+    border-radius: 6px;
+    /*box-sizing: border-box;*/
+    /*width: 360px;*/
+    /*height: 180px;*/
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.el-upload--text .el-icon-upload {
+    font-size: 67px;
+    color: #97a8be;
+    margin: 40px 0 16px;
+    line-height: 50px;
+}
+.el-upload--text {
+    color: #97a8be;
+    font-size: 14px;
+    text-align: center;
+}
+.el-upload--text em {
+    font-style: normal;
+}
+/*VueEditor*/
+.ql-container{
+    min-height: 400px;
+}
+.ql-snow .ql-tooltip{
+    transform: translateX(117.5px) translateY(10px) !important;
+}
+.editor-btn{
+    margin-top: 20px;
+}
+.upload {
+    background-color: #fff;
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 360px;
+    /* height: 180px; */
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.consumption {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    padding: 10px 25px 10px;
+    margin: -5px 0 20px;
+    border-bottom: 1px solid #c9e5f5;
+}
+
+.box-card-create{
+.box-card-create-inside{
+    margin: 0 auto;
+    width: 800px;
+    background: cornsilk;
+}
+form{
+    margin: 0 auto !important;
+}
+}
+.activityDatePicker{
+div label{
+    margin-left:0 !important;
+    margin-top:0 !important;
+    display:inline-block;
+}
+input{
+    width:200px !important;
+}
+}
+
+.bottomBtns{
+    display: flex;
+    justify-content: center;
+    .el-form-item__content{
+        margin-left:0 !important;
+    }
+}
+
+.flexDateBox{
+    display: flex !important;
+    justify-content: space-around;
+    width:600px;
+    align-items: center;
+}
+/*.el-table-column{
+  padding: 10px;
+}*/

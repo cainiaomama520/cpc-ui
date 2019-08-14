@@ -1,0 +1,23 @@
+FROM node:8.5.0
+MAINTAINER ranpop
+WORKDIR /cpc-ui-prod
+
+ADD ./package.json /cpc-ui-prod/
+
+# RUN npm install --production --registry=https://registry.npm.taobao.org
+RUN npm install --registry=https://registry.npm.taobao.org
+RUN npm rebuild node-sass
+RUN npm install concurrently -g
+
+RUN \
+    rm /etc/localtime && \
+    ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+EXPOSE 6062
+ENV API_URL=123.56.23.129 \
+    API_PORT=9898 \
+    PORT=6062
+
+ADD . /cpc-ui-prod
+
+CMD ["sh", "start_test.sh"]

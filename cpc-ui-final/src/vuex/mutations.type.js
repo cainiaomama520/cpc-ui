@@ -1,0 +1,61 @@
+export const TYPE_SWITCH_LOADING = 'TYPE_SWITCH_LOADING';
+export const TYPE_MESSAGE = 'TYPE_MESSAGE';
+export const TYPE_LOADING = 'TYPE_LOADING';
+/**
+ * 用户登录管理
+ */
+export const TYPE_LOGIN = 'TYPE_LOGIN';
+export const TYPE_LOGOUT = 'TYPE_LOGOUT';
+export const TYPE_LOGIN_INFO = 'TYPE_LOGIN_INFO';
+export const TYPE_USER_MANAGEMENT = 'TYPE_USER_MANAGEMENT';
+export const TYPE_ADMIN_MANAGEMENT = 'TYPE_ADMIN_MANAGEMENT';
+
+/**
+ * 广告主产品管理
+ */
+/*广告主部分*/
+export const TYPE_ADVCATEGORY_LIST = 'TYPE_ADVCATEGORY_LIST';
+export const TYPE_ADV_LIST = 'TYPE_ADV_LIST';
+export const TYPE_ADV = 'TYPE_ADV';
+/*产品部分*/
+export const TYPE_PRO_LIST = 'TYPE_PRO_LIST';
+export const TYPE_PRO = 'TYPE_PRO';
+
+/**
+ * 媒体管理
+ */
+export const TYPE_RTBMEDIA_LIST = 'TYPE_RTBMEDIA_LIST';
+export const TYPE_MEDIABUY_LIST = 'TYPE_MEDIABUY_LIST';
+export const TYPE_MEDIABUY = 'TYPE_MEDIABUY';
+
+/**
+ * 数据管理
+ */
+export const TYPE_REPORTADMIN_LIST = 'TYPE_REPORTADMIN_LIST'; //admins
+export const TYPE_REPORPEOPLE_LIST = 'TYPE_REPORPEOPLE_LIST'; //people
+export const TYPE_ADVDROPDOWN_LIST = 'TYPE_ADVDROPDOWN_LIST'; //广告主
+export const TYPE_PRODROPDOWN_LIST = 'TYPE_PRODROPDOWN_LIST'; //产品
+export const TYPE_CAMPAIGN_LIST = 'TYPE_CAMPAIGN_LIST'; //广告活动
+export const TYPE_ADGROUP_LIST = 'TYPE_ADGROUP_LIST'; //广告组
+export const TYPE_CREATIVE_LIST = 'TYPE_CREATIVE_LIST'; //创意
+export const TYPE_MEDIA_LIST = 'TYPE_MEDIA_LIST'; //媒体
+export const TYPE_ADPOSITION_LIST = 'TYPE_ADPOSITION_LIST'; //广告位
+
+/**
+ * 人群管理
+ */
+export const TYPE_PEOPLEPACKET_LIST = 'TYPE_PEOPLEPACKET_LIST';
+export const TYPE_PEOPLEPACKET = 'TYPE_PEOPLEPACKET';
+export const TYPE_PEOPLEDMP_LIST = 'TYPE_PEOPLEDMP_LIST';
+export const TYPE_PEOPLEDMP_DROPDOWN = 'TYPE_PEOPLEDMP_DROPDOWN';
+/**
+ * 辅助工具
+ */
+export const TYPE_ASSISTLINK_LIST = 'TYPE_ASSISTLINK_LIST';
+export const TYPE_TRACKTLINK_LIST = 'TYPE_TRACKTLINK_LIST';
+export const TYPE_TRACKTLINK = 'TYPE_TRACKTLINK'; //创建新的链接标识
+
+/**
+ * 首页
+ */
+export const TYPE_HOME_LIST = 'TYPE_HOME_LIST';
